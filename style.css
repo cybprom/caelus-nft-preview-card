@@ -5,8 +5,8 @@
   }
 body {
   font-family: "Outfit", sans-serif;
-  /* background-color: hsl(217, 54%, 11%); */
-  background-color: hsl(205, 45%, 8%);
+  background-color: hsl(217, 54%, 11%);
+  /* background-color: hsl(205, 45%, 8%); */
   color: white;
 }
  
@@ -29,8 +29,8 @@ body {
   margin: auto;
   padding: 27px;
   border-radius: 3%;
-  /* background-color: hsl(216, 50%, 16%); */
-  background-color: hsl(216, 49%, 13%);
+  background-color: hsl(216, 50%, 16%);
+  /* background-color: hsl(216, 49%, 13%); */
 }
 
 .imgequ {
