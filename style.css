@@ -31,8 +31,12 @@ body {
   border-radius: 3%;
   background-color: hsl(216, 50%, 16%);
   /* background-color: hsl(216, 49%, 13%); */
+  /* transition: transform 500ms ease; */
 }
 
+/* .cardimg:hover {
+  transform: scale(1.05);
+} */
 .imgequ {
   position: relative;
   border-radius: 8px;
@@ -57,6 +61,17 @@ body {
 .imgequ img {
   width: 100%;
   display: block;
+}
+
+/*  i need to check this part out well  */
+
+ img {
+  cursor: zoom-in;
+  transition: .5s;
+}
+
+img:hover {
+  transform: scale(1.2);
 }
 
 h2, a {
