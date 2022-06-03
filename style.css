@@ -31,14 +31,17 @@ body {
   border-radius: 3%;
   background-color: hsl(216, 50%, 16%);
   /* background-color: hsl(216, 49%, 13%); */
-  /* transition: transform 500ms ease; */
+  transition: transform 500ms ease;
 }
 
-/* .cardimg:hover {
+.cardimg:hover {
   transform: scale(1.05);
-} */
+}
 .imgequ {
-  position: relative;
+  /* position: relative; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
   border-radius: 8px;
   overflow: hidden;
   cursor: pointer;
