@@ -1,3 +1,7 @@
+:root {
+  --aqua: hsla(178, 100%, 50%, 0.5);
+}
+
 * {
     margin:  0;
     padding: 0;
@@ -8,6 +12,7 @@ body {
   background-color: hsl(217, 54%, 11%);
   /* background-color: hsl(205, 45%, 8%); */
   color: white;
+  margin: 0 auto;
 }
  
 .maincard{
@@ -15,7 +20,8 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  height: 100vh;
+  /* height: 100vh; */
+  /* margin: 0 auto;  */
   /* margin: 25px; */
 }
 
@@ -64,6 +70,7 @@ body {
 .imgequ img {
   width: 100%;
   display: block;
+  cursor: pointer;
 }
 
 /*  i need to check this part out well  */
